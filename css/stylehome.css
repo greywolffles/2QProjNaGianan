@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;  
+}
+body {
+  background: #150050;
+}
+nav ul {
+  z-index: 50;
+  width: 100%;
+  list-style-type: none;
+  background-color: #810000;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+  padding: 20px 0px;
+}
+nav li a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline;
+  text-align: center;
+  padding: 20px 45px;
+  font-size: 25px;
+  background-color: #810000;
+  color: whitesmoke;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #630000;
+  color: #D8B6A4;
+  font-weight: bold;
+  transition: 0.2s;
+}
+nav li a:active {
+  background-color: #630000;
+  color: #D8B6A4;
+}
+section.header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #d62828;
+  padding: 10px 20px;
+  background-color: #003049;
+  border-bottom: 10px #1a191a solid;
+  float: left;
+  clear: left;
+  vertical-align: center;
+}
+img.header {
+  float: right;
+  clear: right;
+  position: relative;
+  top: 0px;
+}
+section.importance {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #323031;
+  box-shadow: inset 0 0 0 1000px rgba(252, 191, 73, 75%);
+  background-image: url(Importance-Background.jpg);
+  background-position: top center;
+  padding: 0px 20px 10px 20px;
+  border-bottom: 5px #084c61 solid;
+  position: relative;
+  top: 15px;
+  z-index: -1;
+}
+section.fact {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #a7D0cd;
+  padding: 0px 20px 0px 10px;
+  position: relative;
+  bottom: 50px;
+  background-color: #ef233c;
+}
+section.timeline {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #323031;
+  background-color: #fb8500;
+  border-top: 15px #b22222 solid;
+  z-index: -2;
+}
+h6.float1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background: #084c61;
+  border-top: 20px #3f2f3f groove;
+  border-bottom: 20px #3f2f3f ridge;
+  box-shadow: inset 0 0 0 1000px rgba(8, 76, 97, 65%);
+  background-image: url(Importance-Background.jpg);
+  background-position: top left;
+  color: #faf2e4;
+  position: relative;
+  bottom: 45px;
+}
+h6.float2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  border-top: 20px #3f2f3f groove;
+  border-bottom: 20px #3f2f3f ridge;
+  box-shadow: inset 0 0 0 1000px rgba(178, 34, 34, 65%);
+  background-image: url(Importance-Background.jpg);
+  background-position: top center;
+  color: #faf2e4;
+  position: relative;
+  bottom: 45px;
+}
+h6.float3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  border-top: 20px #3f2f3f groove;
+  border-bottom: 20px #3f2f3f ridge;
+  box-shadow: inset 0 0 0 1000px rgba(50, 48, 49, 65%);
+  background-image: url(Importance-Background.jpg);
+  background-position: top right;
+  color: #faf2e4;
+  position: relative;
+  bottom: 45px;
+}
+
