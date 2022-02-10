@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;  
+}
+body {
+  background: #150050;
+}
+nav.bar ul {
+  z-index: 50;
+  width: 100%;
+  list-style-type: none;
+  background-color: #810000;
+  overflow: hidden;
+  border-radius: 20px;
+  border-bottom: 10px solid #8F5B34;
+}
+nav.bar li {
+  float: left;
+  padding: 20px 0px;
+}
+nav.bar li a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline;
+  text-align: center;
+  font-size: 25px;
+  background-color: #810000;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 20px 45px;
+  border-radius: 40px;
+}
+nav.bar li a:hover {
+  background-color: #630000;
+  color: #D8B6A4;
+  font-weight: bold;
+  transition: 0.2s;
+}
+nav.bar li a:active {
+  background-color: #630000;
+  color: #D8B6A4;
+}
+nav.bar a.focus {
+  background-color: rgba(8, 76, 97, 65%);
+}
+.relations {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #d62828;
+  padding: 10px 20px;
+  background-color: #003049;
+  border-bottom: 10px #1a191a solid;
+  float: left;
+  clear: left;
+  vertical-align: center;
+  font-size: 30px;
+  border-radius: 20px 20px 0px 0px;
+  position: relative;
+  z-index: 200;
+}
+.conclusion {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #800000;
+  padding: 10px 20px;
+  background-color: #fb8500;
+  border-bottom: 10px #d62828 solid;
+  vertical-align: center;
+  position: relative;
+  top: 50px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #DF744A;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8F5B34;
+}
+.references {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  position: relative;
+  top: 40px;
+  border-bottom: 40px #d62828 solid;
+  border-radius: 20px;
+}
+section.socmed {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #DF744A;
+  padding: 10px 20px;
+  text-align: right;
+  margin: 30px;
+  position: relative;
+}
+.twitter {
+	background: url('/images/Socmed-Icons.png') no-repeat -1px -5px;
+	width: 25px;
+	height: 21px;
+  margin: 20px;
+  float: right;
+}
+.twitter:hover {
+  filter: saturate(0%) brightness(500%);
+}
+.facebook {
+	background: url('/images/Socmed-Icons.png') no-repeat -58px -1px;
+	width: 12px;
+	height: 24px;
+  margin: 20px;
+  float: right;
+}
+.facebook:hover {
+  filter: saturate(0%) brightness(500%);
+}
+.tumblr {
+	background: url('/images/Socmed-Icons.png') no-repeat -506px -151px;
+	width: 15px;
+	height: 24px;
+  margin: 20px;
+  float: right;
+}
+.tumblr:hover {
+  filter: saturate(0%) brightness(500%);
+}

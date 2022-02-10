@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;  
+}
+body {
+  background: #150050;
+}
+nav ul {
+  z-index: 50;
+  width: 100%;
+  list-style-type: none;
+  background-color: #810000;
+  overflow: hidden;
+  border-radius: 20px;
+  border-bottom: 10px solid #8F5B34;
+}
+nav li {
+  float: left;
+  padding: 20px 0px;
+}
+nav li a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline;
+  text-align: center;
+  font-size: 25px;
+  background-color: #810000;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 20px 45px;
+  border-radius: 40px;
+}
+nav li a:hover {
+  background-color: #630000;
+  color: #D8B6A4;
+  font-weight: bold;
+  transition: 0.2s;
+}
+nav li a:active {
+  background-color: #630000;
+  color: #D8B6A4;
+}
+.focus {
+  background-color: rgba(8, 76, 97, 65%);
+}
+section.prologue {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #a7D0cd;
+  padding: 5px 20px 5px 10px;
+  position: relative;
+  bottom: 50px;
+  background-color: #ef233c;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 5px #084c61 solid;
+  top: 15px;
+  z-index: -1;
+  font-size: 20px;
+}
+section.difference {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #323031;
+  background-color: #fb8500;
+  border-top: 15px #b22222 solid;
+  z-index: -2;
+}
+h6.float1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  background: #084c61;
+  border-top: 20px #3f2f3f groove;
+  border-bottom: 20px #3f2f3f ridge;
+  background-color: rgba(8, 76, 97, 65%);
+  color: #faf2e4;
+  border-radius: 0px 0px 0px 0px;
+  position: relative;
+  font-size: 15px;
+  bottom: 55px;
+}
+h6.float1:hover {
+  color: rgba(8, 76, 97, 65%);
+  background-color: #faf2e4;
+  transition: 0.5s;
+}
+h6.float2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  border-top: 20px #3f2f3f groove;
+  border-bottom: 20px #3f2f3f ridge;
+  background-color: rgba(178, 34, 34, 65%);
+  color: #faf2e4;
+  position: relative;
+  font-size: 15px;
+  bottom: 55px;
+}
+h6.float2:hover {
+  color: rgba(178, 34, 34, 65%);
+  background-color: #faf2e4;
+  transition: 0.5s;
+}
+h6.float3 {
+  float: left;
+  padding: 10px;
+  width: 100%;
+  border-top: 20px #3f2f3f groove;
+  border-bottom: 20px #3f2f3f ridge;
+  background-color: rgba(50, 48, 49, 65%);
+  bottom: 135px;
+  color: #faf2e4;
+  border-radius: 0px 0px 20px 20px;
+  position: relative;
+  font-size: 15px;
+}
+h6.float3:hover {
+  color: rgba(50, 48, 49, 65%);
+  background-color: #faf2e4;
+  transition: 0.5s;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #DF744A;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8F5B34;
+}
