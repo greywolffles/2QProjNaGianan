@@ -95,7 +95,7 @@ section.socmed {
   position: relative;
 }
 .twitter {
-	background: url('/images/Socmed-Icons.png') no-repeat -1px -5px;
+	background: url('../images/Socmed-Icons.png') no-repeat -1px -5px;
 	width: 25px;
 	height: 21px;
   margin: 20px;
@@ -105,7 +105,7 @@ section.socmed {
   filter: saturate(0%) brightness(500%);
 }
 .facebook {
-	background: url('/images/Socmed-Icons.png') no-repeat -58px -1px;
+	background: url('../images/Socmed-Icons.png') no-repeat -58px -1px;
 	width: 12px;
 	height: 24px;
   margin: 20px;
@@ -115,7 +115,7 @@ section.socmed {
   filter: saturate(0%) brightness(500%);
 }
 .tumblr {
-	background: url('/images/Socmed-Icons.png') no-repeat -506px -151px;
+	background: url('../images/Socmed-Icons.png') no-repeat -506px -151px;
 	width: 15px;
 	height: 24px;
   margin: 20px;
