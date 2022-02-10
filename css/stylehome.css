@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;  
+}
+body {
+  background: #150050;
+}
+nav ul {
+  z-index: 50;
+  width: 100%;
+  list-style-type: none;
+  background-color: #810000;
+  overflow: hidden;
+  border-radius: 20px;
+  border-bottom: 10px solid #8F5B34;
+}
+nav li {
+  float: left;
+  padding: 20px 0px;
+}
+nav li a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline;
+  text-align: center;
+  font-size: 25px;
+  background-color: #810000;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 20px 45px;
+  border-radius: 40px;
+}
+nav li a:hover {
+  background-color: #630000;
+  color: #D8B6A4;
+  font-weight: bold;
+  transition: 0.2s;
+}
+nav li a:active {
+  background-color: #630000;
+  color: #D8B6A4;
+}
+.focus {
+  background-color: rgba(8, 76, 97, 65%);
+}
+section.header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #d62828;
+  padding: 10px 20px;
+  background-color: #003049;
+  border-bottom: 10px #1a191a solid;
+  float: left;
+  clear: left;
+  vertical-align: center;
+  font-size: 30px;
+  border-radius: 20px 20px 0px 0px;
+}
+section.header img {
+  float: right;
+  clear: right;
+  position: relative;
+  top: 0px;
+  width: 200px;
+  border-radius: 20px;
+  border: 10px #b22222 inset;
+  animation-name: header;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes header {
+  0% {left: 0px}
+  50% {left: -200px}
+  100% {left: 0px}
+}
+section.importance {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #323031;
+  box-shadow: inset 0 0 0 1000px rgba(252, 191, 73, 75%);
+  background-image: url(Importance-Background.jpg);
+  background-position: top center;
+  padding: 0px 20px 10px 20px;
+  border-bottom: 5px #084c61 solid;
+  position: relative;
+  top: 15px;
+  z-index: -1;
+  font-size: 20px;
+}
+section.fact {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #a7D0cd;
+  padding: 0px 20px 0px 10px;
+  position: relative;
+  bottom: 50px;
+  background-color: #ef233c;
+}
+section.fact:hover {
+  font-size: 25px;
+  transition: 1s;
+}
+section.fact > img {
+  border: 10px rgba(252, 191, 73, 75%) inset;
+  filter: saturate(0%);
+}
+section.fact > img:hover {
+  filter: saturate(100%);
+  transition: 1s;
+}
+section.timeline {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #323031;
+  background-color: #fb8500;
+  border-top: 15px #b22222 solid;
+  z-index: -2;
+}
+h6.float1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background: #084c61;
+  border-top: 20px #3f2f3f groove;
+  border-bottom: 20px #3f2f3f ridge;
+  box-shadow: inset 0 0 0 1000px rgba(8, 76, 97, 65%);
+  background-image: url(Importance-Background.jpg);
+  background-position: top left;
+  color: #faf2e4;
+  position: relative;
+  bottom: 45px;
+  border-radius: 0px 0px 0px 20px;
+}
+h6.float2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  border-top: 20px #3f2f3f groove;
+  border-bottom: 20px #3f2f3f ridge;
+  box-shadow: inset 0 0 0 1000px rgba(178, 34, 34, 65%);
+  background-image: url(Importance-Background.jpg);
+  background-position: top center;
+  color: #faf2e4;
+  position: relative;
+  bottom: 45px;
+}
+h6.float3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  border-top: 20px #3f2f3f groove;
+  border-bottom: 20px #3f2f3f ridge;
+  box-shadow: inset 0 0 0 1000px rgba(50, 48, 49, 65%);
+  background-image: url(Importance-Background.jpg);
+  background-position: top right;
+  color: #faf2e4;
+  position: relative;
+  bottom: 45px;
+  border-radius: 0px 0px 20px 0px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #DF744A;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8F5B34;
+}
+
